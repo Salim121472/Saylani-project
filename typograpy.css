@@ -1,0 +1,113 @@
+/* card section start */
+.main-hero-section3-content-cards {
+    /* border: 2px solid sienna; */
+    width: 1250px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* background-color: rgb(210, 48, 48); */
+}
+
+.card {
+    /* border: 2px solid orange; */
+    border-radius: 15px;
+    height: 380px;
+    width: 280px;
+    align-content: center;
+    justify-items: center;
+    font-family: 'poppins';
+    box-shadow: 4px 6px 6px rgba(2, 2, 2, 0.4);
+    background-color: rgb(243, 243, 243);
+}
+
+.main-hero-section3-content-cards-card1-content {
+    /* border: 2px solid rgb(26, 255, 0); */
+    border-radius: 15px;
+    height: 340px;
+    width: 260px;
+}
+
+.main-hero-section3-content-cards-card1-content-image {
+    /* border: 2px solid rgb(26, 255, 0); */
+    border-radius: 15px;
+    height: 180px;
+    width: 260px;
+}
+
+.main-hero-section3-content-cards-card1-content-headings {
+    /* border: 2px solid blue; */
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.main-hero-section3-content-cards-card1-content-headings h5,
+h2 {
+    margin: 12px 0px 0px 0px;
+}
+
+.main-hero-section3-content-cards-card1-content-pricebutton {
+    /* border: 2px solid goldenrod; */
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.main-hero-section3-content-cards-card1-content-pricebutton-price {
+    /* border: 2px solid red; */
+    height: auto;
+    width: auto;
+}
+
+.main-hero-section3-content-cards-card1-content-pricebutton-button button {
+    /* border: 2px solid red; */
+    height: 25px;
+    width: 120px;
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    background: rgba(227, 30, 37, 1);
+
+}
+
+/* card section end */
+
+/* hover section */
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.04);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.2s ease-in-out;
+}
+.main-hero-section3-content-menu ul li:hover{
+    background: rgba(227, 30, 37, 1);
+    color: white;
+    cursor: pointer;
+}
+.main-hero-section1-content-description-socialicon i:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.1s ease-in-out;
+    background: rgba(227, 30, 37, 1);
+}
+.header-image-section-button button:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    box-shadow: 3px 5px 5px rgba(1, 1, 1, 0.3);
+    transition: 0.1s ease-in-out;
+}
+
+.header-nav-section-menue ul li:hover{
+   
+    color: red;
+    cursor: pointer;
+   
+}
+.main-hero-section3-content-cards-card1-content-pricebutton-button button:hover{
+    cursor: pointer;
+    background-color: black;
+}
